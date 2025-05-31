@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Boltor Prime",
+    "stock": 0,
+    "receiver": 0,
+    "barrel": 2,
+    "blueprint": 0,
+    "pl": 10,
+    "image": "images/primary-weapons/boltor-prime.webp"
+  },
+  {
+    "name": "Burston Prime",
+    "stock": 2,
+    "receiver": 2,
+    "barrel": 2,
+    "blueprint": 2,
+    "pl": 10,
+    "image": "images/primary-weapons/burston-prime.webp"
+  }
+]

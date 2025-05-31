@@ -1,0 +1,72 @@
+<div class="weapons-container">
+    <header>
+        <h1><i class="fas fa-sword"></i> Armas Melee</h1>
+        <button id="addMeleeWeaponBtn" class="btn-primary">
+            <i class="fas fa-plus"></i> Añadir Arma
+        </button>
+    </header>
+
+    <div class="filters">
+        <input type="text" id="meleeSearch" placeholder="Buscar arma...">
+        <select id="meleeFilter">
+            <option value="all">Todas</option>
+            <option value="complete">Completas</option>
+            <option value="incomplete">Incompletas</option>
+        </select>
+    </div>
+
+    <div class="stats">
+        <div class="stat-card">
+            <h3>Total Armas</h3>
+            <p id="total-melee">0</p>
+        </div>
+        <div class="stat-card">
+            <h3>Completas</h3>
+            <p id="complete-melee">0</p>
+        </div>
+    </div>
+
+    <div class="weapons-grid" id="melee-weapons-grid">
+        <!-- Contenido dinámico -->
+    </div>
+</div>
+
+<!-- Modal para Armas Melee -->
+<div id="meleeWeaponModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="meleeModalTitle">Añadir Nueva Arma Melee</h2>
+        <form id="meleeWeaponForm">
+            <div class="form-group">
+                <label for="meleeWeaponName">Nombre</label>
+                <input type="text" id="meleeWeaponName" required>
+            </div>
+            
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Hoja</label>
+                    <input type="number" id="meleeBlade" value="0" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Mango</label>
+                    <input type="number" id="meleeHandle" value="0" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Guardamanos</label>
+                    <input type="number" id="meleeGuard" value="0" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Plano</label>
+                    <input type="number" id="meleeBlueprint" value="0" min="0">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="meleeWeaponPL">PL</label>
+                <input type="number" id="meleeWeaponPL" value="0" min="0">
+            </div>
+
+            <button type="submit" class="btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>

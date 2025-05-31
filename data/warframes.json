@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Ash Prime",
+    "image": "images/warframes/ash-prime.webp",
+    "neuropticas": 0,
+    "chasis": 0,
+    "systemas": 2,
+    "plano": 0,
+    "pl": 80
+  },
+  {
+    "name": "Atlas Prime",
+    "image": "images/warframes/atlas-prime.webp",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 1,
+    "pl": 60
+  },
+  {
+    "name": "Banshee Prime",
+    "neuropticas": 2,
+    "chasis": 0,
+    "systemas": 2,
+    "plano": 2,
+    "pl": 75,
+    "image": "images/warframes/banshee-prime.webp"
+  },
+  {
+    "name": "Baruuk Prime",
+    "neuropticas": 1,
+    "chasis": 2,
+    "systemas": 2,
+    "plano": 0,
+    "pl": 55,
+    "image": "images/warframes/baruuk-prime.webp"
+  },
+  {
+    "name": "Chroma Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 2,
+    "pl": 75,
+    "image": "images/warframes/chroma-prime.webp"
+  },
+  {
+    "name": "Ember Prime",
+    "neuropticas": 1,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 0,
+    "pl": 75,
+    "image": "images/warframes/ember-prime.webp"
+  },
+  {
+    "name": "Equinox Prime",
+    "neuropticas": 1,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 70,
+    "image": "images/warframes/equinox-prime.webp"
+  },
+  {
+    "name": "Frost Prime",
+    "neuropticas": 1,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 90,
+    "image": "images/warframes/frost-prime.webp"
+  },
+  {
+    "name": "Gara Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 70,
+    "image": "images/warframes/gara-prime.webp"
+  },
+  {
+    "name": "Garuda Prime",
+    "neuropticas": 0,
+    "chasis": 0,
+    "systemas": 0,
+    "plano": 1,
+    "pl": 75,
+    "image": "images/warframes/garuda-prime.webp"
+  },
+  {
+    "name": "Gauss Prime",
+    "neuropticas": 2,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 2,
+    "pl": 30,
+    "image": "images/warframes/gauss-prime.webp"
+  },
+  {
+    "name": "Grendel Prime",
+    "neuropticas": 1,
+    "chasis": 2,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 35,
+    "image": "images/warframes/grendel-prime.webp"
+  },
+  {
+    "name": "Harrow Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 60,
+    "image": "images/warframes/harrow-prime.webp"
+  },
+  {
+    "name": "Hildryn Prime",
+    "neuropticas": 1,
+    "chasis": 2,
+    "systemas": 2,
+    "plano": 0,
+    "pl": 30,
+    "image": "images/warframes/hildryn-prime.webp"
+  },
+  {
+    "name": "Inaros Prime",
+    "neuropticas": 0,
+    "chasis": 2,
+    "systemas": 1,
+    "plano": 1,
+    "pl": 50,
+    "image": "images/warframes/inaros-prime.webp"
+  },
+  {
+    "name": "Ivara Prime",
+    "neuropticas": 1,
+    "chasis": 0,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 65,
+    "image": "images/warframes/ivara-prime.webp"
+  },
+  {
+    "name": "Khora Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 0,
+    "pl": 75,
+    "image": "images/warframes/khora-prime.webp"
+  },
+  {
+    "name": "Lavos Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 75,
+    "image": "images/warframes/lavos-prime.webp"
+  },
+  {
+    "name": "Limbo Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 2,
+    "pl": 90,
+    "image": "images/warframes/limbo-prime.webp"
+  },
+  {
+    "name": "Loki Prime",
+    "neuropticas": 2,
+    "chasis": 0,
+    "systemas": 0,
+    "plano": 2,
+    "pl": 85,
+    "image": "images/warframes/loki-prime.webp"
+  },
+  {
+    "name": "Mag Prime",
+    "neuropticas": 1,
+    "chasis": 2,
+    "systemas": 2,
+    "plano": 0,
+    "pl": 90,
+    "image": "images/warframes/mag-prime.webp"
+  },
+  {
+    "name": "Mesa Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 0,
+    "pl": 70,
+    "image": "images/warframes/mesa-prime.webp"
+  },
+  {
+    "name": "Mirage Prime",
+    "neuropticas": 2,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 100,
+    "image": "images/warframes/mirage-prime.webp"
+  },
+  {
+    "name": "Nekros Prime",
+    "neuropticas": 2,
+    "chasis": 2,
+    "systemas": 1,
+    "plano": 0,
+    "pl": 120,
+    "image": "images/warframes/nekros-prime.webp"
+  },
+  {
+    "name": "Nezha Prime",
+    "neuropticas": 1,
+    "chasis": 0,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 80,
+    "image": "images/warframes/nezha-prime.webp"
+  },
+  {
+    "name": "Nidus Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 85,
+    "image": "images/warframes/nidus-prime.webp"
+  },
+  {
+    "name": "Nova Prime",
+    "neuropticas": 2,
+    "chasis": 0,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 100,
+    "image": "images/warframes/nova-prime.webp"
+  },
+  {
+    "name": "Nyx Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 2,
+    "pl": 100,
+    "image": "images/warframes/nyx-prime.webp"
+  },
+  {
+    "name": "Oberon Prime",
+    "neuropticas": 1,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 2,
+    "pl": 75,
+    "image": "images/warframes/oberon-prime.webp"
+  },
+  {
+    "name": "Octavia Prime",
+    "neuropticas": 2,
+    "chasis": 2,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 95,
+    "image": "images/warframes/octavia-prime.webp"
+  },
+  {
+    "name": "Protea Prime",
+    "neuropticas": 0,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 2,
+    "pl": 40,
+    "image": "images/warframes/protea-prime.webp"
+  },
+  {
+    "name": "Revenant Prime",
+    "neuropticas": 1,
+    "chasis": 2,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 60,
+    "image": "images/warframes/revenant-prime.webp"
+  },
+  {
+    "name": "Rhino Prime",
+    "neuropticas": 2,
+    "chasis": 2,
+    "systemas": 2,
+    "plano": 2,
+    "pl": 60,
+    "image": "images/warframes/rhino-prime.webp"
+  },
+  {
+    "name": "Saryn Prime",
+    "neuropticas": 1,
+    "chasis": 0,
+    "systemas": 1,
+    "plano": 1,
+    "pl": 95,
+    "image": "images/warframes/saryn-prime.webp"
+  },
+  {
+    "name": "Sevagoth Prime",
+    "neuropticas": 1,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 2,
+    "pl": 35,
+    "image": "images/warframes/sevagoth-prime.webp"
+  },
+  {
+    "name": "Titania Prime",
+    "neuropticas": 2,
+    "chasis": 2,
+    "systemas": 2,
+    "plano": 2,
+    "pl": 70,
+    "image": "images/warframes/titania-prime.webp"
+  },
+  {
+    "name": "Trinity Prime",
+    "neuropticas": 1,
+    "chasis": 0,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 65,
+    "image": "images/warframes/trinity-prime.webp"
+  },
+  {
+    "name": "Valkyr Prime",
+    "neuropticas": 2,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 2,
+    "pl": 80,
+    "image": "images/warframes/valkyr-prime.webp"
+  },
+  {
+    "name": "Vauban Prime",
+    "neuropticas": 0,
+    "chasis": 0,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 120,
+    "image": "images/warframes/vauban-prime.webp"
+  },
+  {
+    "name": "Voidrig",
+    "neuropticas": 1,
+    "chasis": 1,
+    "systemas": 1,
+    "plano": 1,
+    "pl": 70,
+    "image": "images/warframes/voidrig.webp"
+  },
+  {
+    "name": "Volt Prime",
+    "neuropticas": 0,
+    "chasis": 0,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 80,
+    "image": "images/warframes/volt-prime.webp"
+  },
+  {
+    "name": "Wisp Prime",
+    "neuropticas": 2,
+    "chasis": 1,
+    "systemas": 2,
+    "plano": 1,
+    "pl": 40,
+    "image": "images/warframes/wisp-prime.webp"
+  },
+  {
+    "name": "Wukong Prime",
+    "neuropticas": 1,
+    "chasis": 0,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 85,
+    "image": "images/warframes/wukong-prime.webp"
+  },
+  {
+    "name": "Xaku  Prime",
+    "neuropticas": 1,
+    "chasis": 2,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 55,
+    "image": "images/warframes/xaku-prime.webp"
+  },
+  {
+    "name": "Zephyr Prime",
+    "neuropticas": 2,
+    "chasis": 1,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 95,
+    "image": "images/warframes/zephyr-prime.webp"
+  },
+  {
+    "name": "Bonewidow",
+    "neuropticas": 0,
+    "chasis": 0,
+    "systemas": 0,
+    "plano": 0,
+    "pl": 0,
+    "image": "images/warframes/bonewidow.webp"
+  },
+  {
+    "name": "Hydroid Prime",
+    "neuropticas": 2,
+    "chasis": 2,
+    "systemas": 0,
+    "plano": 2,
+    "pl": 90,
+    "image": "images/warframes/hydroid-prime.webp"
+  }
+]

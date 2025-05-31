@@ -1,0 +1,30 @@
+/warframes-manager
+├── server.js
+│   package.json
+│   package-lock.json
+├── data/
+    ├── warframes.json
+│   ├── primary-weapons.json
+│   ├── secondary-weapons.json
+│   └── melee-weapons.json
+└──/public
+    ├── index.html
+    ├── partials/
+    │   ├── primary-weapons.html
+    │   ├── secondary-weapons.html
+    │   └── melee-weapons.html
+    ├── scripts/
+    │   ├── scripts.js
+    │   ├── primary-weapons.js
+    │   ├── secondary-weapons.js
+    │   └── melee-weapons.js
+    ├── images/
+    │    └── warframes/
+    │        ├── default.webp
+    │        ├── excalibur.webp
+    │        └── mag.webp
+    └── styles/
+        ├── styles.css
+        ├── primary-weapons.css
+        ├── secondary-weapons.css
+        └── melee-weapons.css

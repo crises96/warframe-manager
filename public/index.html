@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warframes Prime Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Sistema de pestañas -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="warframes">Warframes</button>
+            <button class="tab-btn" data-tab="primary-weapons">Armas Primarias</button>
+            <button class="tab-btn" data-tab="secondary-weapons">Armas Secundarias</button>
+            <button class="tab-btn" data-tab="melee-weapons">Armas Melee</button>
+        </div>
+
+        <!-- Contenido de Warframes -->
+        <div id="warframes" class="tab-content active">
+            <div class="warframes-container">
+                <header>
+                    <h1><i class="fas fa-robot"></i> Warframes Prime Manager</h1>
+                    <button id="addWarframeBtn" class="btn-primary">
+                        <i class="fas fa-plus"></i> Añadir Warframe
+                    </button>
+                </header>
+
+                <div class="filters">
+                    <input type="text" id="search" placeholder="Buscar Warframe...">
+                    <select id="filter">
+                        <option value="all">Todos</option>
+                        <option value="complete">Completos</option>
+                        <option value="incomplete">Incompletos</option>
+                    </select>
+                    <div class="sort-controls">
+                        <select id="sortCriteria">
+                            <option value="name">Nombre</option>
+                            <option value="pl">PL</option>
+                        </select>
+                            <button id="sortButton" class="btn-sort">
+                              <i class="fas fa-sort-alpha-down"></i>
+                              <span class="sort-text">Orden A-Z</span>
+                            </button>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total Warframes</h3>
+                        <p id="total-warframes">0</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Completos</h3>
+                        <p id="complete-warframes">0</p>
+                    </div>
+                </div>
+
+                <div class="warframes-grid" id="warframes-grid">
+                    <!-- Contenido dinámico -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenido de Armas Primarias -->
+        <div id="primary-weapons" class="tab-content">
+            <!-- Cargado dinámicamente -->
+        </div>
+        <div id="secondary-weapons" class="tab-content">
+            <!-- Cargado dinámicamente -->
+        </div>
+        <div id="melee-weapons" class="tab-content">
+            <!-- Cargado dinámicamente -->
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+<!-- Modal -->
+<div id="warframeModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="modalTitle">Añadir Nuevo Warframe</h2>
+        <form id="warframeForm">
+            <div class="form-group">
+                <label for="warframeName">Nombre</label>
+                <input type="text" id="warframeName" required>
+            </div>
+            
+            <div class="form-grid">
+                <!-- Neuropticas -->
+                <div class="form-group">
+                    <label>Neuropticas</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="neuropticas" data-action="decrease">-</button>
+                        <input type="number" id="neuropticas" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="neuropticas" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <!-- Chasis -->
+                <div class="form-group">
+                    <label>Chasis</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="chasis" data-action="decrease">-</button>
+                        <input type="number" id="chasis" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="chasis" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <!-- Sistemas -->
+                <div class="form-group">
+                    <label>Sistemas</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="systemas" data-action="decrease">-</button>
+                        <input type="number" id="systemas" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="systemas" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <!-- Plano -->
+                <div class="form-group">
+                    <label>Plano</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="plano" data-action="decrease">-</button>
+                        <input type="number" id="plano" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="plano" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <!-- PL -->
+                <div class="form-group">
+                    <label for="warframePL">PL (Precio de Venta)</label>
+                    <input type="number" id="warframePL" value="0" min="0">
+                </div>
+            </div>
+
+            <button type="submit" class="btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>
+
+    <script src="/scripts/scripts.js"></script>
+</body>
+</html>

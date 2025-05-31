@@ -1,0 +1,93 @@
+<div class="weapons-container">
+    <header>
+        <h1><i class="fas fa-gun"></i> Armas Primarias</h1>
+        <button id="addPrimaryWeaponBtn" class="btn-primary">
+            <i class="fas fa-plus"></i> Añadir Arma
+        </button>
+    </header>
+
+    <div class="filters">
+        <input type="text" id="primarySearch" placeholder="Buscar arma...">
+        <select id="primaryFilter">
+            <option value="all">Todas</option>
+            <option value="complete">Completas</option>
+            <option value="incomplete">Incompletas</option>
+        </select>
+    </div>
+
+    <div class="stats">
+        <div class="stat-card">
+            <h3>Total Armas</h3>
+            <p id="total-primary">0</p>
+        </div>
+        <div class="stat-card">
+            <h3>Completas</h3>
+            <p id="complete-primary">0</p>
+        </div>
+    </div>
+
+    <div class="weapons-grid" id="primary-weapons-grid">
+        <!-- Contenido dinámico -->
+    </div>
+</div>
+
+<!-- Modal para Armas Primarias -->
+<div id="primaryWeaponModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="primaryModalTitle">Añadir Nueva Arma Primaria</h2>
+        <form id="primaryWeaponForm">
+            <div class="form-group">
+                <label for="primaryWeaponName">Nombre</label>
+                <input type="text" id="primaryWeaponName" required>
+            </div>
+            
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Culata</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="primaryStock" data-action="decrease">-</button>
+                        <input type="number" id="primaryStock" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="primaryStock" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Receptor</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="primaryReceiver" data-action="decrease">-</button>
+                        <input type="number" id="primaryReceiver" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="primaryReceiver" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Cañón</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="primaryBarrel" data-action="decrease">-</button>
+                        <input type="number" id="primaryBarrel" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="primaryBarrel" data-action="increase">+</button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Plano</label>
+                    <div class="quantity-control">
+                        <button type="button" class="quantity-btn" data-part="primaryBlueprint" data-action="decrease">-</button>
+                        <input type="number" id="primaryBlueprint" value="0" min="0">
+                        <button type="button" class="quantity-btn" data-part="primaryBlueprint" data-action="increase">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="primaryWeaponPL">PL</label>
+                <input type="number" id="primaryWeaponPL" value="0" min="0">
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn-primary">Guardar</button>
+                <button type="button" class="btn-secondary close-modal">Cancelar</button>
+            </div>
+        </form>
+    </div>
+</div>
